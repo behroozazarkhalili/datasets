@@ -220,6 +220,8 @@ NIBABEL_REQUIRE = ["nibabel>=5.3.2", "ipyniivue==2.4.2"]
 
 ICEBERG_REQUIRE = ["pyiceberg>=0.7.0"]
 
+BIO_REQUIRE = ["biopython>=1.80"]
+
 EXTRAS_REQUIRE = {
     "audio": AUDIO_REQUIRE,
     "vision": VISION_REQUIRE,
@@ -240,6 +242,7 @@ EXTRAS_REQUIRE = {
     "pdfs": PDFS_REQUIRE,
     "nibabel": NIBABEL_REQUIRE,
     "iceberg": ICEBERG_REQUIRE,
+    "bio": BIO_REQUIRE,
 }
 
 setup(
